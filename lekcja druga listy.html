@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekcja druga</title>
+</head>
+<body>
+    <!--Lista nienumerowana za pomoca znacznika <ul> w którym umieszczamy <li>-->
+    <!--atrybut "type" zmienia znak w listach (disk jest domyślny)-->
+    <div class="lista">
+        <ul type="disk">
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi</li>
+            <li>Punkt trzeci</li>
+        </ul>
+        <ul type="circle">
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi</li>
+            <li>Punkt trzeci</li>
+        </ul>
+        <ul type="square">
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi</li>
+            <li>Punkt trzeci</li>
+        </ul>
+    </div>
+<!--Lista numerowana za pomoca znacznika <ol>-->
+    <div class="lista2">
+        <ol>
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi</li>
+            <li>Punkt trzeci</li>
+        </ol>
+        <ol type="I">
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi</li>
+            <li>Punkt trzeci</li>
+        </ol>
+        <ol type="A">
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi</li>
+            <li>Punkt trzeci</li>
+        </ol>
+    </div>
+<!--Lista numerowana która zaczyna się od dowolnej liczby lub litery-->
+    <div class="lista3">
+        <ol start="6">
+            <li>Punkt szósty</li>
+            <li>Punkt siódmy</li>
+        </ol>
+    </div>
+<!--Lista numerowana w której sami wybieramy jaki numer
+każdy podpunkt za pomocą atrybutu value-->
+    <div class="lista4">
+        <ol start="5">
+            <li value="10">punkt 10</li>
+            <li value="25">punkt 25</li>
+        </ol>
+    </div>
+<!--Przykładowa lista z nienumerowaniem-->
+<div class="lista5">
+    <ul>
+        <li>Punkt pierwszy</li>
+            <ul>
+                <li>Punkt 1.1</li>
+                    <ul>
+                        <li>Punkt 1.1.1</li>
+                        <li>Punkt 1.1.2</li>
+                    </ul>
+                <li>Punkt 1.2</li>
+            </ul>
+        <li>Punkt Drugi</li>
+    </ul>
+</div>
+<!--Przykładowa lista pomieszana z numerowana i nienumerowana-->
+<div class="lista6">
+    <ol type="I">
+        <li>Wprowadzenie</li>
+        <ol>
+            <li>Składnia języka HTML</li>
+            <ol type="a">
+                <li>Znaczniki i elementy</li>
+                <li>Struktura dokumentu HTML</li>
+                <li>Pierwsza strona WWW</li>
+            </ol>
+            <li value="7">Kaskadowe arkusze stylów</li>
+            <ol type="a">
+                <li>Struktura i wygląd dokumentu</li>
+                <li>Dołączanie stylów do dokumentów</li>
+                <ul>
+                    <li>Style zewnętrzne</li>
+                    <li>Style wewnętrzne</li>
+                </ul>
+                <li>Domyślny język stylów</li>
+            </ol>
+            <li value="8">Składnia kaskadowych arkuszy stylów</li>
+        </ol>
+        <li>Dodatki</li>
+        <ol type="A">
+            <li>Instalacja Oprogramowania</li>
+        </ol>
+        <li>Skorowidz</li>
+    </ol>
+</div>
+</body>
+</html>
