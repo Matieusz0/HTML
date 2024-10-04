@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="formularz">
+    <form>
+        Podaj imię: <input type="text" name="imie"><br><br>
+        Podaj nazwisko: <input type="text" name="nazwisko"><br><br>
+        PESEL: <input type="text" name="pesel" maxlength="11" size="10"><br><br>
+        Kod pocztowy:<br> 
+        <input type="text" name="kod1" maxlength="2" size="1"> - <input type="text" name="kod2" maxlength="3" size="3"><br><br>
+        Płeć:<br>
+        <input type="radio" name="plec">Mezczyzna<br>
+        <input type="radio" name="plec">Kobieta<br><br>
+        Wybierz województwo:<br>
+        <select name="wojewodztwa">
+            <option>dolnośląskie</option>
+            <option>kujawsko-pomorskie </option>
+            <option>lubelskie</option>
+            <option>lubuskie</option>
+            <option>łódzkie</option>
+            <option>małopolskie</option>
+            <option>mazowieckie</option>
+            <option>opolskie</option>
+            <option>podkarpackie</option>
+            <option>podlaskie</option>
+            <option>pomorskie</option>
+            <option>śląskie</option>
+            <option>świętokrzyskie</option>
+            <option>warmińsko-mazurskie</option>
+            <option>wielkopolskie</option>
+            <option>zachodniopomorskie</option>
+        </select><br><br>
+        Zainteresowania:<br>
+        <input type="checkbox" name="hobby" value="muzyka">Muzyka<br>
+        <input type="checkbox" name="hobby" value="Ksiazki">Czytanie książek<br>
+        <input type="checkbox" name="hobby" value="programowanie">Programowanie<br>
+        <input type="checkbox" name="hobby" value="gry">Granie w gry komputerowe<br>
+        <input type="checkbox" name="hobby" value="fotografia">Fotografia<br>
+        <input type="checkbox" name="hobby" value="Instrument">Granie na instrumencie<br>
+        <input type="checkbox" name="hobby" value="spiewanie">Śpiewanie<br>
+        <input type="checkbox" name="hobby" value="gotowanie">gotowanie<br><br>
+        <input type="submit" value="WYŚLIJ"> <input type="reset" value="WYCZYSZC">
+    </form>
+
+</div>
+</body>
+</html>

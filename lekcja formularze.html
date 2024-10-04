@@ -8,15 +8,16 @@
 <body>
     <div class="formularz">
         <form>
-            Prosty formularz logowania:<br><br>
+            Prosty formularz logowania:<br>
             Login: <input type="text" name="login"><br><br>
             Hasło: <input type="password" name="haslo"><br><br>
+            <input type="submit" value="WYŚLIJ"> <input type="reset" value="WYCZYSZC">
         </form>
     </div>
     <br>
     <div class="formularz2">
         <form>
-            Podaj swoje zainteresowania:<br><br>
+            Podaj swoje zainteresowania:<br>
             <input type="checkbox" name="hobby" value="muzyka"> Muzyka <br>
             <input type="checkbox" name="hobby" value="sport"> Sport <br>
         </form>
@@ -24,11 +25,46 @@
     <br>
     <div class="formularz3">
         <form>
-            Podaj swoje wykształcenie:<br><br>
+            Podaj swoje wykształcenie:<br>
             <input type="radio" name="wyksz" value="podst"> Podstawowe <br>
             <input type="radio" name="wyksz" value="sr"> Średnie <br>
             <input type="radio" name="wyksz" value="wyz"> Wyższe <br>
         </form>
+    </div>
+    <br>
+    <div class="formularz4">
+        <form>
+        Podaj wiek <br>
+        <select name="wiek">
+            <option> &lt; 18</option>
+            <option> 18-21 </option>
+            <option> &gt; 21 </option>
+        </select>
+        </form>
+    </div>
+    <br>
+    <div class="formularz5">
+        <form>
+            Opisz siebie... <br>
+            <textarea name="nazwa" cols="20" rows="3">
+                Maksymalnie 250 znaków...
+            </textarea>
+        </form>
+    </div>
+    <br>
+    <div class="formularz6">
+        Dodaj obrazy:<br>
+        <input type="file" name="nazwa">
+    </div>
+    <br>
+    <div class="formularz7">
+        Przycisk do wyczyszczenia formularza:<br>
+        <input type="reset" value="WYCZYSZC">
+    </div>
+    <br>
+    <div class="formularz8">
+        Przycisk do wysłania formularza:<br>
+        <input type="submit" value="WYŚLIJ">
     </div>
 </body>
 </html>
